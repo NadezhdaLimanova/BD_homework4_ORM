@@ -4,8 +4,8 @@ from homework_orm import create_tables, Publisher, Book, Shop, Sale, Stock
 from pprint import pprint
 
 login = 'postgres'
-password = 'lastochka86'
-table_name = 'orm_base'
+password = 'password'
+table_name = 'table_name'
 
 DSN = f'postgresql://{login}:{password}@localhost:5432/{table_name}'
 engine = sqlalchemy.create_engine(DSN)
